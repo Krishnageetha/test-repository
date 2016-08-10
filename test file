@@ -1,7 +1,7 @@
 # API Method: /api/analytics/report/play
 # flags=comments
 
-Report a video download or stream event back to the analytics engine. 
+or stream event back to the analytics engine. 
 
 This method should be called after the download or stream has concluded and include the total number of bytes transfered along with a `session_id` from 23 Video. This might retrieved either from a cookie or is included in the requesting URL as a GET parameter named `session_id`. If `session_id` is provided, `photo_id` is too.
 
